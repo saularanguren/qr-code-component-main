@@ -13,7 +13,6 @@
 }
 
 body{
-    width: 100%;
     min-height: 100vh;
     padding: 4em 0;
 
@@ -25,9 +24,9 @@ body{
     background-color: var(--color3);
 }
 
-/* Qr Code */
+/* QR */
 .container__qr{
-    max-width: 315px;
+    max-width: 320px;
     height: 100%;
 
     display: flex;
@@ -73,6 +72,7 @@ body{
     margin-bottom: .8em;
     color: var(--color4);
     font-size: 22px;
+    max-width: 280px;
 }
 
 .container__qr__info p{
@@ -80,4 +80,12 @@ body{
     color: var(--color2);
     font-size: 15px;
 }
-/* End Qr Code */
+/* End QR */
+
+/* Media Query For Tablet and Desktop */
+@media only screen and (min-width: 768px){
+    .container__qr{
+        box-shadow: 0 25px 15px hsla(217, 45%, 22%, 0.080);
+    }
+}
+/* End Media Query For Tablet and Desktop */
