@@ -85,7 +85,7 @@ body{
 /* Media Query For Tablet and Desktop */
 @media only screen and (min-width: 768px){
     .container__qr{
-        box-shadow: 0 25px 15px hsla(217, 45%, 22%, 0.080);
+        box-shadow: 0 25px 15px rgba(31, 50, 81, 0.100);
     }
 }
 /* End Media Query For Tablet and Desktop */
